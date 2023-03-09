@@ -10,10 +10,9 @@ public class Main {
         // значения заведённых переменных. Ответ сохраняете в
         // новую переменную и выводите на экран
 
-       double price = 9975.50;
-       int rubles = 20;
-       int mile = (int) price/rubles;
-           System.out.println("Bonus miles " + mile);
-
+        int price = 9975;
+        int rubles = 20;
+        int miles = price / rubles;
+        System.out.println("Bonus miles " + miles);
     }
 }
